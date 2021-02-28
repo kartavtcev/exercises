@@ -77,7 +77,13 @@ public class Tutorialspoint {
       .orElseThrow(NoSuchElementException::new);
         * */
 
+        final int M = 5;
+        final int N = 4;
+        double[][] a = new double[M][N];
 
+        for(int i = 0; i < M; i++)
+            for(int j = 0; j < N; j++)
+                a[i][j] = 0.0;
 
     }
 
