@@ -85,6 +85,9 @@ public class Tutorialspoint {
             for(int j = 0; j < N; j++)
                 a[i][j] = 0.0;
 
+        Map<String, String> hashmap = new HashMap<String, String>();
+
+
     }
 
     private static int getCountEmptyStringUsingJava7(List<String> strings) {
